@@ -12,4 +12,4 @@
     </a>
 </p>
 
-Modificación realizada en clase el día 05/04/2022. PE-101.
+Modificación realizada en clase el día 05/04/2022. PE-101
