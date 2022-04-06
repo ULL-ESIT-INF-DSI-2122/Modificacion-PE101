@@ -7,8 +7,8 @@ const Hola = new Revista([12345, 2345, 354], 'Hola');
 const Juan = new Suscriptor('Juan', 'JuanHdez_');
 
 describe('Revista tests: ', () => {
-  it('GetNumeroRevista(1) => 12345', () =>{
-    expect(Hola.getNumeroRevista(1)).to.be.equal(12345);
+  it('GetNumeroRevista(0) => 12345', () =>{
+    expect(Hola.getNumeroRevista(0)).to.be.equal(12345);
   });
   it('getNombreRevista() => Hola', () =>{
     expect(Hola.getNombreRevista()).to.be.equal('Hola');

@@ -16,7 +16,4 @@ describe('Suscriptor tests: ', () => {
   it('update => to not throw', () =>{
     expect(Juan.update(Hola)).to.not.throw;
   });
-  it('update => to be a function', () =>{
-    expect(Juan.update(Hola)).to.be.a('function');
-  });
 });
