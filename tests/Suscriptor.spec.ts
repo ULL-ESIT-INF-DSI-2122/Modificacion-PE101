@@ -1,6 +1,5 @@
 import {Revista} from '../src/Revista/revista';
 import {Suscriptor} from '../src/Revista/suscriptor';
-import {Observable} from '../src/Interface/observable';
 import 'mocha';
 import {expect} from 'chai';
 
