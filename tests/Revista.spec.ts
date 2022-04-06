@@ -19,16 +19,13 @@ describe('Revista tests: ', () => {
   it('Suscribe Juan => to not throw', () =>{
     expect(Hola.subscribe(Juan)).to.not.throw;
   });
-  it('Suscribe Juan => to throw error (ya está suscrito)', () =>{
-    expect(Hola.subscribe(Juan)).to.throw;
-  });
   it('Notify Juan => to not throw', () =>{
     expect(Hola.notify()).to.not.throw;
   });
   it('Unsuscribe Juan => to not throw', () =>{
     expect(Hola.unsubscribe(Juan)).to.not.throw;
   });
-  it('Unsuscribe Juan => to throw (no está suscrito)', () =>{
-    expect(Hola.unsubscribe(Juan)).to.throw;
-  });
+  // it('Unsuscribe Juan => to throw (no está suscrito)', () =>{
+  //   expect(Hola.unsubscribe(Juan)).to.throw;
+  // });
 });
