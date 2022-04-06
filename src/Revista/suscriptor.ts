@@ -26,12 +26,12 @@ export class Suscriptor implements Observer {
    * Método que controla los cambios en la revista
    * @param observable
    */
-  update(observable: Observable) {
-    let i:number = 0;
+  update(observable: Observable): string {
+    let mensaje:string = '';
     if (observable instanceof Revista) {
-      console.log(`Soy un suscriptor llamado ${this.nombre}` + ` con el usuario ${this.usuario}` +
-                      ` y he observado que se ha añadido el número ${observable.getNumeroRevista(i)} a la revista ${observable.getNombreRevista()}`);
-      i++;
+      mensaje = 'Soy un suscriptor llamado ' + this.nombre + ' con el usuario ' + this.usuario +
+      ' y he observado que se ha añadido un nuevo número a la revista ' + observable.getNombreRevista();
     }
+    return mensaje;
   }
 }

@@ -26,6 +26,6 @@ describe('Revista tests: ', () => {
     expect(Hola.unsubscribe(Juan)).to.not.throw;
   });
   // it('Unsuscribe Juan => to throw (no está suscrito)', () =>{
-  //   expect(Hola.unsubscribe(Juan)).to.throw;
+  //   expect(Hola.unsubscribe(Juan)).to.throw(Error);
   // });
 });
